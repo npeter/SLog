@@ -21,7 +21,7 @@ The open source application [Visual Syslog](http://maxbelkov.github.io/visualsys
 - The message contains the signature of the function (__PRETTY_FUNCTION__) in which the message is sent
 <br><br>
 
-![](./docs/Serial_demo.png)
+![](./Images/Serial_demo.png)
 Example serial output 
 <br><br>
 
@@ -32,7 +32,7 @@ Example serial output
 - The message contains the signature of the function (__PRETTY_FUNCTION__) in which the message is sent
 <br><br>
 
-![](./docs/SysLog_demo.png)
+![](./Images/SysLog_demo.png)
 Example network output using Visual SysLog
 <br><br>
 
