@@ -1,11 +1,11 @@
 {
     "name": "SLog",
-    "version": "1.0.1", 
+    "version": "1.0.0", 
     "description": "Logger for serial an/or network",
-    "keywords": "syslog",
+    "keywords": "syslog logger",
     "repository": {
         "type": "git",
-        "url": "https://github.com/npeter/SLog/blob/main/library.json"
+        "url": "https://github.com/npeter/SLog.git"
     },
     "authors": {
         "name": "Peter Neeser",
@@ -17,19 +17,5 @@
     "platforms": "espressif32",
     "headers": [
         "Slog.h"
-    ],
-    "examples": [
-        {
-            "name": "Example",
-            "base": "examples",
-            "files": [
-                "main.cpp"
-            ]
-        }
-    ],
-    "dependencies": {  
-    },
-    "build": {
-        "libCompatMode": "soft"
-    }
+    ]
 }
