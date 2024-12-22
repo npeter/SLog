@@ -149,6 +149,8 @@ public:
 
     const String Lvl2Str(uint8_t lvl) { return _LVL_STR[lvl >= SLOG_EMERGENCY && lvl <= SLOG_DEBUG ? lvl : SLOG_UNKNOWN]; };
 
+    Stream* GetSerialStream() { return _p_serial; };
+
     void write()
     {
         if (_enable_serial)
